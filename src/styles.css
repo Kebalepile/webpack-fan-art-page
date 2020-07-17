@@ -1,0 +1,38 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.print-btn {
+  width:100px;
+  word-break: break-word;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  background: #045504;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 50px auto;
+}
+.p-text {
+  color: #ff9100;
+  font-weight: bold;
+}
+
+h1 {
+  color: #148ee0d0;
+  margin:  20px 20px 50px 20px;
+}
+
+#board {
+  height: 250px;
+  width: 300px;
+  overflow-y: auto;
+  position: absolute;
+  right: 30px;
+  top:80px;
+}
